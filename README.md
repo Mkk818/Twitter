@@ -1,4 +1,4 @@
-<p>[7_Laravel]<a href="https://classroom.google.com/u/0/w/Mjk4ODI4MDMxNzk4/tc/NDAwODM3MDEzMzk1"></a></p>
+<p><a href="https://classroom.google.com/u/0/w/Mjk4ODI4MDMxNzk4/tc/NDAwODM3MDEzMzk1">7_Laravel</a></p>
 <p>最初のコミット時点で8.のアバター写真投稿まで完了</p>
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
