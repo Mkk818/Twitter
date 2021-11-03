@@ -25,3 +25,5 @@ Route::get('/timeline', 'TweetController@showTimelinePage')->name('timeline');
 Route::post('/timeline', 'TweetController@postTweet');
 
 Route::post('/timeline/delete/{id}', 'TweetController@destroy')->name('destroy');
+
+Route::get('/user/show/{id}', 'UserController@show')->name('show');

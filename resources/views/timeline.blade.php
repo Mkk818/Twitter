@@ -21,8 +21,9 @@
         <div class="tweet-wrapper">
             @foreach ($tweets as $tweet)
             <div class="tweet-box">
+                <a href="{{ route('show', [$tweet->user->id]) }}"><img src="{{ asset('storage/images/'. $tweet->user->avatar) }}" class="avatar" alt=""></a>
                 {{-- <div class="user_icons"> --}}
-                    <img src="{{ asset('storage/images/'. $tweet->user->avatar) }}" class="avatar" alt="">
+
                     {{-- <div>{{ $tweet->user->name }}</div> --}}
                 {{-- </div> --}}
                 <div>{{ $tweet->tweet }}</div>
