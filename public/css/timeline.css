@@ -2,6 +2,14 @@ body {
     height: 100%;
     background-color: #e6ecf0;
 }
+
+.title-logo {
+  font-size: 42px;
+}
+
+.account-menu {
+  font-size: 21px;
+}
 .wrapper {
     width: 50%;
     height: 800px;
