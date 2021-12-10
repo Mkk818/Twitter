@@ -80,7 +80,7 @@
             @foreach($tweets ?? '' as $tweet)
             <div class="tweet-box">
                 <a href="{{ route('show', [$tweet->user->id]) }}"><img
-                        src="{{ asset('storage/images/_c_choju58_0018_s512_choju58_0018_9.png'. $tweet->user->avatar) }}" alt="" class="avatar"></a>
+                        src="{{ asset('storage/images/'. $tweet->user->avatar) }}" alt="" class="avatar"></a>
                         <div>{{ $tweet->created_at->format('Y-m-d H:i') }}</div>
                 <div>{{ $tweet->tweet }}</div>
                 <div class="destroy-btn">

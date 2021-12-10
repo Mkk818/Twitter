@@ -68,7 +68,7 @@
     <div class="profile-box">
       <p>{{ $user->name }}</p>
       <div class="image-box">
-        <img src="{{ asset('storage/images/_c_choju58_0018_s512_choju58_0018_9.png'. $user->avatar) }}" alt="">
+        <img src="{{ asset('storage/images/'. $user->avatar) }}" alt="">
       </div>
     </div>
     <button type="button" onclick="history.back()" class="return-btn">戻る</button>
